@@ -57,17 +57,12 @@ ul {
     list-style-type: none;
     font-size: 25px;
 }
-
 /* nav */
 /* phone font*/
 .phone {
     display: flex;
     align-items: center;
 }
-/* @media only screen and (max-width: 670px) {
-    .phone {
-        display: none;
-    } */
 .phonefont i.fas.fa-phone {
     /* color: rebeccapurple; */
     margin-right: 5px;
@@ -256,10 +251,12 @@ span#us-sec {
     align-items: center;
     color:rgb(255, 88, 165);
     background-size: cover;
-    background-color: #80808017;
+background-image: linear-gradient(#cecece, #5e6679, #cecece);
+
     /* background-image: url(gallery/Banner_Bake.jpg ); */
 
 }
+
 
 .teacherImages img{
     width: 200px;
@@ -345,9 +342,6 @@ i.fab.fa-youtube {
 .msg {
     border: 3px solid #fb0f3e;
     background-color: rgb(233, 240, 220);
-}
-h3 {
-    border-bottom: 1px solid;
 }
 /* form complete */
 
