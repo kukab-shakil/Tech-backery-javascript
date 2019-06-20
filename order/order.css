@@ -1,0 +1,94 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizzing: border-box;
+}
+ul {
+    list-style-type: none;
+    background-color:black;
+    margin: opx;
+    padding:0px;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    text-align:center;
+    height:70px;
+    
+}
+
+
+li {
+float: left;
+display:inline;
+padding:15px;
+margin-left:10px;
+line-height:50px;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    line-height:50px;
+float: center;
+display:inline;
+}
+ul li a:hover{
+background-color:red;
+}
+body{
+background:url(order-img/2cake.jpg);
+background-size:cover;
+font-family:Arial;
+}
+.wrap{
+max-width:350px;
+border-radius:20px;
+margin:auto;
+background:rgba(0,0,0,0.8);
+box-sizing:border-box;
+padding:40px;
+color:#fff;
+margin-top:60px;
+}
+
+.h2{
+text-align;center;
+}
+input[type=text],input[type=password]{
+width:100%;
+box-sizing:border-box;
+padding:12px 5px;
+background:rgba(0,0,0,0.10);
+outline:none;
+border-bottom:1px dotted #fff;
+color:#fff;
+border-radius:5px;
+margin:5px;
+font-weight:bold;
+}
+input[type=submit]{
+width:90%;
+box-sizing:border-box;
+padding:10px 0;
+margin-top:30px;
+outline:none;
+border:none;
+background:#60adde;
+opacity:0.7;
+border-radius:20px;
+font-size:20px;
+color:#fff;
+}
+input[type=submit]:hover{
+background:#003366;
+opacity:0.7;
+}
+.number{
+float:center;
+}
+

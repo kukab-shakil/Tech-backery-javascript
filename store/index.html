@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="store.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="store.css">
+    <title>Document</title>
+    
+</head>
+
+<body>
+    <div class="main">
+        <div class="heading">
+            <h1>We Love to serve you....</h1>
+        </div>
+        <div class="haveRs">
+            <div class="rsAmount">
+                <h3>I have Rs.</h3>
+            </div>
+            <div class="num"><input type="text" name="firstname" id="userAmount"></div>
+        </div>
+        <div class="total">
+            <div class="totalRs">
+                <h1>Your total is Rs.</h1>
+            </div>
+            <div class="yourNumber">
+                <input type="text" id="total" name="firstname">
+            </div>
+        </div>
+        <div class="threeImage">
+            <div class="cont">
+                <div class="lastimage">
+                    <div class="headingBorderRs">
+                        <h3>Rs. 500</h3>
+                    </div>
+
+                    <div class="image">
+                        <img src="jsimg/fuufy cake.jpg" class="store-img" alt="">
+                    </div>
+                    <div class="name">
+                        <h3>choco stawberry</h3>
+                    </div>
+                    <div class="icrementoperator">
+                        <div class="subincrement">
+                            <div class="lftBtn">
+                                <button onclick="applebuttonminus();">
+                                    <div class="minus">
+                                        <p>-</p>
+                                    </div>
+                                </button>
+
+                            </div>
+                            <div class="imgInput">
+
+                                <input type="text" id="apple" placeholder="0">
+
+                            </div>
+                            <div class="rightBtn">
+                                <button onclick="applebuttonClick();">
+                                    <p>+</p>
+                                </button>
+
+                            </div>
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+                <div class="lastimage">
+                    <div class="headingBorderRs">
+                        <h3>Rs. 1500</h3>
+                    </div>
+
+                    <div class="image">
+                        <img src="jsimg/cake-2.jpeg" class="store-img" alt="">
+                    </div>
+                    <div class="name">
+                        <h3>mexico cake</h3>
+                    </div>
+                    <div class="icrementoperator">
+                        <div class="subincrement">
+                            <div class="lftBtn">
+                                <button onclick="orangebuttonminus();">
+                                    <div class="minus">
+                                        <p>-</p>
+                                    </div>
+                                </button>
+
+                            </div>
+                            <div class="imgInput">
+                                <input type="text" id="orangeMinus" name="firstname" placeholder="0">
+
+                            </div>
+                            <div class="rightBtn">
+                                <button onclick="orangebuttonClick()">
+                                    <p>+</p>
+                                </button>
+
+                            </div>
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+                <div class="lastimage">
+                    <div class="headingBorderRs">
+                        <h3>Rs. 700</h3>
+                    </div>
+
+                    <div class="image">
+                        <img src="jsimg/cake-3.jpeg" class="store-img" alt="">
+                    </div>
+                    <div class="name">
+                        <h3>Hifill cake</h3>
+                    </div>
+                    <div class="icrementoperator">
+                        <div class="subincrement">
+                            <div class="lftBtn">
+                                <button onclick="bananabuttonminus()">
+                                    <div class="minus">
+                                        <p>-</p>
+                                    </div>
+                                </button>
+
+                            </div>
+                            <div class="imgInput">
+                                <input type="text" id="banana" name="firstname" placeholder="0">
+
+                            </div>
+                            <div class="rightBtn">
+                                <button onclick="bananabuttonClick();">
+                                    <p>+</p>
+                                </button>
+
+                            </div>
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+            </div>
+
+        </div>
+        <!-- seconimage -->
+        <div class="threeImage">
+            <div class="cont">
+                <div class="lastimage">
+                    <div class="headingBorderRs">
+                        <h3>Rs. 150</h3>
+                    </div>
+
+                    <div class="image">
+                        <img src="jsimg/sweets-1.jpeg" class="store-img" alt="">
+                    </div>
+                    <div class="name">
+                        <h3>choco buscit</h3>
+                    </div>
+                    <div class="icrementoperator">
+                        <div class="subincrement">
+                            <div class="lftBtn">
+                                <button onclick="chocobuttonminus();">
+                                    <div class="minus">
+                                        <p>-</p>
+                                    </div>
+                                </button>
+
+                            </div>
+                            <div class="imgInput">
+
+                                <input type="text" id="choco" placeholder="0">
+
+                            </div>
+                            <div class="rightBtn">
+                                <button onclick="chocobuttonClick();">
+                                    <p>+</p>
+                                </button>
+
+                            </div>
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+                <!-- secomd -->
+                <div class="lastimage">
+                    <div class="headingBorderRs">
+                        <h3>Rs. 120</h3>
+                    </div>
+
+                    <div class="image">
+                        <img src="jsimg/cupcake-2.jpeg" class="store-img" alt="">
+                    </div>
+                    <div class="name">
+                        <h3>fitme</h3>
+                    </div>
+                    <div class="icrementoperator">
+                        <div class="subincrement">
+                            <div class="lftBtn">
+                                <button onclick="fitmebuttonminus();">
+                                    <div class="minus">
+                                        <p>-</p>
+                                    </div>
+                                </button>
+
+                            </div>
+                            <div class="imgInput">
+                                <input type="text" id="fitme" name="firstname" placeholder="0">
+
+                            </div>
+                            <div class="rightBtn">
+                                <button onclick="fitmebuttonClick()">
+                                    <p>+</p>
+                                </button>
+
+                            </div>
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+                <div class="lastimage">
+                    <div class="headingBorderRs">
+                        <h3>Rs. 80</h3>
+                    </div>
+
+                    <div class="image">
+                        <img src="jsimg/cupcake-3.jpeg" class="store-img" alt="">
+                    </div>
+                    <div class="name">
+                        <h3>Hifill cupcake</h3>
+                    </div>
+                    <div class="icrementoperator">
+                        <div class="subincrement">
+                            <div class="lftBtn">
+                                <button onclick="Hifillbuttonminus()">
+                                    <div class="minus">
+                                        <p>-</p>
+                                    </div>
+                                </button>
+
+                            </div>
+                            <div class="imgInput">
+                                <input type="text" id="Hifill" name="firstname" placeholder="0">
+
+                            </div>
+                            <div class="rightBtn">
+                                <button onclick="HifillbuttonClick();">
+                                    <p>+</p>
+                                </button>
+
+                            </div>
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+
+</html>

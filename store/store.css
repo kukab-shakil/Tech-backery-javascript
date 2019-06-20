@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Kaushan Script', cursive;
+
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+    height: 88px;
+    align-items: center;
+    background-image: linear-gradient(#cecece, #5e6679, #cecece);
+    color: rgb(255, 125, 147);
+
+
+}
+.haveRs{
+    display: flex;
+    height: 87px;
+    justify-content: center;
+    align-items: center;
+}
+.num input[type="text"] {
+    border: 2px solid #ff8989;
+    border-radius: 13px;
+    width: 100px;
+    height: 30px;
+    margin-left: 5px;
+    padding-right: 15px;
+    padding-left: 24px;
+    outline: none;
+}
+.total {
+    background-image: url(jsimg/ezgif.com-video-to-gif\ \(1\).gif);
+    background-size: cover;
+    height: 198px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* margin-right: 8px; */
+}
+.yourNumber input[type="text"] {
+    background-color: transparent;
+    height: 49px;
+    border: none;
+    margin-left: 3px;
+    outline: none;
+    font-size: 59px;
+    width: 200px;
+    color: red;
+}
+.threeImage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background-color:#8080802e;
+}
+.cont {
+    
+    display: flex;
+    width: 86%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+
+}
+.lastimage {
+    margin-top: 14px;
+    margin-bottom: 14px;
+    border-radius: 9px 9px 4px 4px;
+
+    background-color: white;
+    height: 344px;
+    width: 291px;
+}
+.lastimage img {
+     height: 216px;
+    width: 287px;
+}
+.headingBorderRs {
+    height: 40px;
+    background-color: #white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px 6px 0px 0px;
+}
+.name {
+    display: flex;
+    justify-content: center;
+    height: 25px;
+    margin-bottom: 2px;
+}
+.image {
+    overflow: hidden;
+    margin-top: 2px;
+    display: flex;
+    justify-content: center;
+}
+
+.imgInput input[type="text"] {
+    width: 50px;
+    font-size: 19px;
+    height: 34px;
+    padding-left: 35px;
+    color: #656565;
+    border: none;
+    background-color: rgb(255, 255, 255);
+}
+.icrementoperator {
+    display: flex;
+    justify-content: center;
+}
+.subincrement {
+    display: flex;
+    height: 38px;
+    border: 1px solid #545859;
+    border-radius: 20px;
+}
+.lftBtn button {
+    border: 1px solid #545859;
+    border-radius: 20px 0px 0px 20px;
+    height: 38px;
+    outline: none;
+    width: 30px;
+    background: linear-gradient(#43484e, #5e6679,#43484e );
+    box-shadow: -2px 1px 3px 1px #0707078f;
+
+
+}
+.rightBtn button {
+ 
+    height: 38px;
+    width: 30px;
+    outline: none;
+    background: linear-gradient(#43484e, #5e6679,#43484e );
+    border-radius: 0px 20px 20px 0px;
+    box-shadow: 1px 1px 6px 1px #0707078f;
+    border: none;
+
+
+
+    
+}
+.rightBtn p {
+    font-size: 20px;
+    color: white;
+}
+p {
+    font-size: 29px;
+    color: white;
+}
+.rightBtn button:hover {
+    background-color: #222;
+    color: #8bc34a;
+}
+.rightBtn button:active {
+    box-shadow: none;
+    color: #b86e74;
+}
+.lftBtn button:active {
+    box-shadow: none;
+    color: #b86e74;
+
+    }
+    /* image transition */
+.store-img {
+    transition: all 1s ease-in-out;
+ }
+
+    
+.image:hover .store-img {
+    transform: scale(1.2);
+}   

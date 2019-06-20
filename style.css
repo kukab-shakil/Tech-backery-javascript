@@ -1,0 +1,358 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Kaushan Script', cursive;
+    overflow-x: hidden;
+}
+/* main start */
+.main{
+    height: 600px;
+    background-size: cover;
+    background-image: url(gallery/ezgif.com-video-to-gif.gif);
+
+}
+/* main end */
+/* submain */
+.sub-main {
+    height: 600px;
+    background-color: #00000094;
+}
+/* submain */
+/* header start */
+header {
+    background-color: #ffc0cb1f;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+header {
+
+    display: flex;
+    justify-content: space-between;
+}
+/* nav */
+.nav{
+    display: flex;
+}
+.nav li{
+    width: 145px;
+    height: 55px;
+    text-align: center;
+}
+
+.nav li a{
+    color: rgb(255, 176, 189);
+    text-decoration: none;
+}
+.nav li a:hover{
+    border-bottom: 2px solid rgb(253, 118, 141)
+}
+ul {
+    height: 70px;
+    justify-content: space-between;
+    display: flex;
+    width: 500px;
+    align-items: center;
+    list-style-type: none;
+    font-size: 25px;
+}
+
+/* nav */
+/* phone font*/
+.phone {
+    display: flex;
+    align-items: center;
+}
+/* @media only screen and (max-width: 670px) {
+    .phone {
+        display: none;
+    } */
+.phonefont i.fas.fa-phone {
+    /* color: rebeccapurple; */
+    margin-right: 5px;
+    font-size: 30px;
+}
+/* animation */
+.phonefont i.fas.fa-phone{
+    animation: colorfontchange 2s infinite;
+}
+@keyframes colorfontchange{
+    0%{ color: red;}
+    25%{ color: rgb(55, 185, 55);;}
+    50%{ color: red;}
+    100%{ color: rgb(55, 185, 55);}
+
+}
+.mobileNumber{
+    animation: colornumberchange 4s infinite;
+    padding-right: 14%;
+
+}
+@keyframes colornumberchange{
+    0%{ color: black;}
+    25%{ color: white;}
+    50%{ color: black;}
+    100%{ color: white;}
+
+}
+/* animaton */
+/* phone */
+/* header end */
+/* welcome */
+
+.welcome {
+    height: 400px;
+    justify-content: center;
+    /* max-height: 400px; */
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+ .welcome h1 {
+    color: snow;
+}
+ .welcome p {
+    font-weight: bold;
+    font-size: 63px;
+    color: #ffffff70;
+    min-width: 50%;
+}
+#cookie{
+    color: rgb(255, 130, 151);
+}
+span.hit{
+    color: white;
+}
+
+/* welcome end */
+/* secon/////////////////////////////////////////////d section
+  */
+/* aboutr paragraph */
+.about {
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-evenly;
+    display: flex;
+    /* height: 400px; */
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+.aboutBoth {
+    display: flex;
+    flex-direction: column;
+}
+/* @media only screen and (max-width: 600px) {
+    .aboutBoth{
+        flex-wrap: nowrap;
+    } */
+.aboutMain {
+    width: 500px;
+    
+}
+.aboutVideo {
+    border: 10px solid #f9e494;
+    /* border: 2px; */
+    width: 500px;
+    height: 310px;
+    background-image: url(gallery/ezgif.com-video-to-gif\ \(1\).gif);
+}
+.about-heading {
+    font-size: 45px;
+}
+span#us {
+    font-weight: lighter;
+    color: #f37f93;
+    font-size: 85px;
+
+    /* display: flex; */
+    /* flex-direction: row; */
+}
+/* paragraph */
+.about-paragraph {
+    color: grey;
+}
+.paragraphColorchange {
+    padding: 3%;
+    background: #ff9aba1c;
+    /* padding-top: 2%; */
+    /* padding-bottom: 2%; */
+}
+/* paragraph */
+/* button */
+.button {
+    margin-top: 4%;
+    display: flex;
+    justify-content: center;
+}
+button {
+    outline: none;
+    width: 140px;
+    height: 50px;
+    border-radius: 12px;
+    border: 2px solid #000000b8;
+    background-color:transparent;
+    
+}
+button:hover{
+    background-color: #e0618c36;
+}
+.button a {
+    text-decoration: none;
+    font-size: 17px;
+    color: black;
+}
+span#us-sec {
+    font-size: 22px;
+    color: #f3657e;
+}
+
+/* button */
+/* 3rd sec //////////////////////////////////////////////////////////////////*/
+
+.aboutsecVideo {
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 2%;
+    /* margin-left: 2px; */
+    border: 10px solid #ec7c9b;
+    /* border: 2px; */
+    width: 56%; 
+    height: 310px;
+    background-image: url(gallery/ezgif.com-video-to-gif\ \(3\).gif);
+}
+.about-color-grey{
+    background-color: rgba(218, 208, 208, 0.17);
+}
+
+
+/* 4rd sec /////////////////////////////*/
+.hum{
+    background-image: url(gallery/headerBcg.jpg);
+    padding: 5%;
+    background-size: cover;
+    height: 219px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+
+.hum p {
+    color: #ef3a59;
+    font-size: 29px;
+    text-shadow: 1px 2px 13px #ff6b6b;
+    text-shadow: black;
+}
+/* 5th section */
+
+.aboutCheif {
+    padding: 3%;
+    text-shadow: 1px 5px 3px #110b0b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:rgb(255, 88, 165);
+    background-size: cover;
+    background-color: #80808017;
+    /* background-image: url(gallery/Banner_Bake.jpg ); */
+
+}
+
+.teacherImages img{
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+}
+.ourteacherImages {
+    margin-top: 36px;
+    justify-content: space-between;
+    display: flex;
+    height: 300px;
+    width: 65%;
+    flex-wrap: wrap;
+    text-align: center;
+
+}
+.imagesOFTeacher{
+    display: flex;
+    flex-direction: column;
+}
+.teacherImages {
+    border-radius: 100%;
+    border: 3px solid rgb(31, 28, 28);
+}
+.imagesOFTeacher p {
+    font-size: 25px;
+}
+span.ourteam {
+    font-size: 30px;
+    /* width: 78px; */
+}
+.aboutCheif h1 {
+    width: 57%;
+    text-align: center;
+}
+.teacherImages:hover{
+    background-color: #110b0b;
+}
+
+    /* form sec */
+.contactinfo-col2 {
+    display: flex;
+    width: 94%;
+    padding: 30px 5 px 30px 5px;
+    float: left;
+    padding-right: 10%;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding: 3%;
+    background-color: #ffc0cb3d;
+}
+.msg{
+    background-color:rgb(233, 240, 220);
+ }
+ .contactinfo-col2 input {
+    border: 1px solid grey;
+    border-radius: 4px;
+    margin: 4px;
+}
+.footericon{
+    display: flex;
+}
+i.fab.fa-twitter {
+    font-size: 35px;
+    color: #0a8dda;
+    padding: 3%;
+}
+i.fab.fa-facebook-f {
+    font-size: 35px;
+    color: #63b6f1;
+    padding: 3%;
+
+
+
+}
+i.fab.fa-youtube {
+    font-size: 35px;
+    color: red;
+    padding: 3%;
+    
+
+}
+.msg {
+    border: 3px solid #fb0f3e;
+    background-color: rgb(233, 240, 220);
+}
+h3 {
+    border-bottom: 1px solid;
+}
+/* form complete */
+
+
+
+
+
+
